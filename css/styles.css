@@ -1,0 +1,71 @@
+body{
+    width: 1440px;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.main-section{
+    background-color: white;
+    /*sizing*/    
+    height: 59%;
+    width: 25%;
+    /* centering*/
+    position: fixed;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    margin-top: 9%;
+    /*border styling*/
+    border-radius: 5%;
+}
+
+.qr-code{
+    
+}
+
+img{
+    /*resizing the image*/
+    max-width: 90%;
+    height:auto;
+    /*centering the image*/
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    /*moving it downwards*/
+    margin-top: 5%;
+    /*border styling*/
+    border-radius: 5%;;
+}
+
+.heading-1{
+    /*font styling*/
+    font-size: 20px;
+    font-weight: 700;
+    line-height: auto;
+    /*centering*/
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    /*breaking text*/
+    max-width: 20%;
+    /*positioning*/
+    text-align: center;
+        /*top right bottom left*/
+        padding: 2% 2% 0 3%;
+}
+
+.text{
+    /*font styling*/
+    font-size: 15px;
+    font-weight: 400;
+    font-style: bold;
+        /*centering*/
+        position: fixed;
+        margin-right: auto;
+        margin-left: auto;
+        /*breaking text*/
+        max-width: 20%;
+        /*positioning*/
+        text-align: center;
+            /*top right bottom left*/
+            padding: 7% 2% 0 3%;
+}
